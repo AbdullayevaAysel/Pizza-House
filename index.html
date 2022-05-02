@@ -4,9 +4,213 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-left">
+            <div class="toggle" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <h1>Pizza House</h1>
+        </div>
+
+        <ul class="nav-center">
+            <li>Kampaniyalar</li>
+            <li>Location</li>
+            <li>Sifaris ver</li>
+        </ul>
+
+        <ul class="nav-right">
+            <li>Qeydiyyat</li>
+            <li>Daxil ol</li>
+            <li><i class="fa fa-shopping-cart"></i></li>
+        </ul>
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+        </ul>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <h1>
+            Pizza House - un yeni Pizzasi
+        </h1>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        
+        <h1>Featured Deals</h1>
+        <hr>
+
+        <ul class="btn-sliders">
+            <li onclick="btn_slide(1)">1</li>
+            <li onclick="btn_slide(2)">2</li>
+            <li onclick="btn_slide(3)">3</li>
+            <li onclick="btn_slide(4)">4</li>
+            <li onclick="btn_slide(5)">5</li>
+            <li onclick="btn_slide(6)">6</li>
+            <li onclick="btn_slide(7)">7</li>
+            <li onclick="btn_slide(8)">8</li>
+        </ul>
+
+        <div class="maindeals">
+            <div class="content">
+                <section>
+                    <img src="img/etlipizza.webp" alt="">
+                </section>
+                <section>
+                    <h1>$11.99</h1>
+                    <h3>Etli Pizza</h3>
+                    <p>$11.99 iki boyuk etli pizza al</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/gobeleklipizza.jpeg" alt="">
+                </section>
+                <section>
+                    <h1>$24.99</h1>
+                    <h3>Gobelekli Pizza</h3>
+                    <p>Bu Pizza sadece  $24.99 - a</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/pendirlipizza.jpeg" alt="">
+                </section>
+                <section>
+                    <h1>$31.99</h1>
+                    <h3>Pendirli Pizza</h3>
+                    <p>Get Two X-Large Cheese Pizzas, Small Order of Cheese Breadsticks, and an Order of Cinnamon Sticks for $31.99. Papa Gino's will also donate $2 to the Jimmy Fund with each purchase of this Meal Deal. (Code 9067)</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/soganlipizza.webp" alt="">
+                </section>
+                <section>
+                    <h1>$18.99</h1>
+                    <h3>Soganli Pizza</h3>
+                    <p>Get an X-Large Cheese Pizza and Cinnamon Sticks for just $18.99 (code 8980)</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/sucuklupizza.webp" alt="">
+                </section>
+                <section>
+                    <h1>TWO FOR TUESDAY</h1>
+                    <h3>Sucuklu Pizza</h3>
+                    <p>Free small cheese pizza with purchase of any Large or X-large Specialty Pizza
+                        (Code 8018) </p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/toyuqlupizza.jpeg" alt="">
+                </section>
+                <section>
+                    <h1>$10.00</h1>
+                    <h3>Toyuqlu Pizza</h3>
+                    <p>Macaroni in a creamy cheese sauce with Asiago Cheese. Each order served with a full order of our delicious Cheese Breadsticks.</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/vegeterianpizza.webp" alt="">
+                </section>
+                <section>
+                    <h1>$17.30</h1>
+                    <h3>Vegeterian Pizzasi</h3>
+                    <p>Jumbo Cheese Ravioli  in our own famous marinara. Each order served with a full order of our delicious Cheese Breadsticks.</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section>
+                    <img src="img/zeytunlupizza.jpeg" alt="">
+                </section>
+                <section>
+                    <h1>$20.99</h1>
+                    <h3>Zeytunlu Pizza</h3>
+                    <p>Grilled chicken and fresh broccoli tossed with spaghetti, penne or fettuccine in a flavorful Alfredo Sauce. Each order served with a full order of our delicious Cheese Breadsticks.</p>
+                    <div class="button">
+                        <section>Bu pizzani al</section>
+                        <section>Her ikisini al</section>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
 </body>
 </html>
