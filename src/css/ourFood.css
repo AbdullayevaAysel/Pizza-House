@@ -1,0 +1,157 @@
+main {
+    padding-top: 70px;
+}
+
+.content-header {
+    font-size: 72px;
+    padding: 30px 25px 0;
+    margin-bottom: 20px;
+}
+
+.content-title {
+    margin-bottom: 40px;
+    color: #2e5f59;
+    font-size: 36px;
+}
+
+.content-text {
+    text-align: justify !important;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.btn-sliders {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.btn-sliders li {
+    padding: 26px 0;
+    cursor: pointer;
+}
+
+.ourFood .header {
+    width: 100%;
+    height: 500px;
+}
+
+.ourFood .header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ourFood .content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-menu {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.food-menu div {
+    margin-bottom: 40px;
+}
+
+.food-menu img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.content-footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/OurFood/background-img.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.content-footer .card {
+    background-color: #AB3829;
+    color: #fff;
+    padding: 30px;
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+
+.content-footer .card-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.content-footer .card-text {
+    line-height: 20px;
+}
+
+.content-footer .card-btn {
+    margin-top: 10px;
+    padding: 9px 18px;
+    border-radius: 6px;
+    background-color: #ab3829;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    font-size: 24px;
+    transition: all 200ms ease-in;
+    text-transform: uppercase;
+}
+
+.fa-circle {
+    font-size: 5px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.food-menu .conten-text:first-child {
+    margin-bottom: 15px;
+}
+
+.food-menu .content-text:not(:first-child) {
+    margin-bottom: 4px;
+}
+
+.download {
+    background-color: #ab3829;
+    color: #fff;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.content-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-card .card-left {
+    width: 40%;
+}
+
+.content-card .card-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-card .card-right {
+    width: 60%;
+    padding: 25px;
+}
+
+.content-card .card-right .card-title {
+    font-size: 24px;
+    color: #ab3829;
+}

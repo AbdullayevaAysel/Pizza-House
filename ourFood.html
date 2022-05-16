@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- data aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/ourFood.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="nav-left">
+            <div class="toggle" onclick="toggleMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+
+            <h1>Pizza House</h1>
+        </div>
+
+        <ul class="nav-center">
+            <li>Kampaniyalar</li>
+            <li>Location</li>
+            <li>Sifaris ver</li>
+        </ul>
+
+        <ul class="nav-right">
+            <li>Qeydiyyat</li>
+            <li>Daxil ol</li>
+            <li><i class="fa fa-shopping-cart"></i></li>
+        </ul>
+    </nav>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="./ourFood.html">Our Food</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+            <li><a href="#">lorem</a></li>
+        </ul>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+        <ul class="btn-sliders">
+            <li onclick="btn_slide(1)">OUR FOOD</li>
+            <li onclick="btn_slide(2)">GLUTEN FREE</li>
+            <li onclick="btn_slide(3)">CATERING</li>
+        </ul>
+
+        <div class="ourFood">
+            <div class="content">
+                <section class="header">
+                    <img src="./src/img/OurFood/our_food_1.webp" alt="">
+                </section>
+                <section class="food-menu">
+                    <h1 class="content-header">Our Food</h1>
+                    <div>
+                        <p class="content-title">
+                            A TRULY ARTISAN PIZZA
+                        </p>
+                        <p class="content-text">
+                            Our pizza chefs hand stretch each pizza when you order it. Nothing is made in a machine or assembled out of a package. We don’t even use timers — we use our eyes. Just another time-tested part of the old world artisan process we keep alive.
+                        </p>
+                        <img src="./src/img/OurFood/our_food_2.webp" alt="">
+                    </div>
+                    <div>
+                        <p class="content-title">
+                            IT’S IN THE DETAILS
+                        </p>
+                        <p class="content-text">
+                            What makes our pizza special? It’s in the details. Details like traditional dough, made fresh daily right here in Walpole, Mass. using only five simple ingredients: locally-milled hard winter wheat flour, water, yeast, salt and oil. Our specially crafted
+                            tomato sauce made from vine-ripened California crushed tomatoes. Top that with our signature blend of three premium cheeses for an authentic pizza with the uniquely delicious taste you won’t get anywhere else.
+                        </p>
+                        <img src="./src/img/OurFood/our_food_3.webp" alt="">
+                    </div>
+                    <div>
+                        <p class="content-title">
+                            ROOTED IN HISTORY
+                        </p>
+                        <p class="content-text">
+                            When Mike Valerio and his wife opened the first Papa Gino’s in 1961 in East Boston, they used the recipes that his family brought over from Italy in the 1930’s. That pizza recipe has never changed and is still being used today. That’s why every Papa Gino’s
+                            pizza still has that same distinctive, authentic Italian taste. So the pizza you grew up with is the same pizza you feed your family.
+                        </p>
+                    </div>
+                </section>
+                <section class="content-footer">
+                    <div class="card">
+                        <div class="card-title">
+                            GLUTEN FREE
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                We’re committed to bringing you delicious gluten free options.
+                            </div>
+                            <button class="card-btn">our process</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">
+                            GLUTEN FREE
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                We’re committed to bringing you delicious gluten free options.
+                            </div>
+                            <button class="card-btn">our process</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section class="header">
+                    <img src="./src/img/OurFood/gluten_freeb.webp" alt="">
+                </section>
+                <section class="food-menu">
+                    <h1 class="content-header">GLUTEN FREE</h1>
+                    <p class="content-title">WE TAKE GLUTEN SENSITIVITY SERIOUSLY</p>
+                    <p class="content-text">
+                        We’ve developed extensive handling procedures for preparation and baking pizzas on Udi’s Gluten Free Crust
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> Udi’s Gluten Free crusts are stored in a separate location from Papa Gino’s dough that contains gluten.
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> Udi’s Gluten Free pizza crusts are only handled with gloved hands and then placed on a baking/serving paper in the pizza preparation area.
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> Pizza cooks must change or place gloves on hands before preparing the pizza.
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> There are designated gluten-free ladles and a separate gluten-free container of Papa Gino’s signature tomato sauce used for building the gluten free pizza.
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> Udi’s Gluten Free pizza crust will be baked on the serving paper, which will act as a protective layer.
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> The oven tender will change their gloves and use a dedicated pizza cutter when cutting a gluten free pizza.
+                    </p>
+                    <p class="content-text">
+                        <i class="fa-solid fa-circle"></i> Toppings that contain gluten (meatballs, chicken tenders, mac & cheese) are not available for order on the Udi’s Gluten Free pizza crust. Team members are trained to recognize these toppings.
+                        Papa Gino’s technology prohibits the selection of these toppings via online ordering as well as the in-restaurant point of sale system
+                    </p>
+                </section>
+            </div>
+
+            <div class="content">
+                <section class="header">
+                    <img src="./src/img/OurFood/catering_0.webp" alt="">
+                </section>
+                <section class="food-menu">
+                    <div>
+                        <h1 class="content-header">CATERING</h1>
+                        <p class="content-title">CATERING TO A CROWD IS EASY</p>
+                        <p class="content-text">
+                            From the big meeting to the big game, whether you’re feeding five or 50, it’s as easy as a call to Papa Gino’s.
+                        </p>
+                        <p class="content-text">
+                            We offer a wide variety of sandwiches, salads, pasta and, of course, pizza.
+                        </p>
+                        <a href="#" class="download">Download Menu (PDF)</a>
+                    </div>
+                    <div>
+                        <p class="content-title">CATERING DETAILS</p>
+                        <p class="content-text">
+                            A minimum of two hours' notice is required for the cancellation of a catering order under $100. Orders greater than $100 require 24 hours' notice for cancellation. We suggest that you call at least one day prior to your special event, although we will
+                            do our best to accommodate same-day orders.
+                        </p>
+                        <p class="content-text">
+                            Before placing your order, please inform your server if a person in your party has a food allergy. Some of our menu items may contain or may come in contact with common allergens, including wheat, soy, tree nuts, eggs, fish and shellfish.
+                        </p>
+                        <p class="content-text">
+                            Delivery available in most areas. Delivery fee applies. Prices, menu items and participation may vary. Prices subject to change without notice.
+                        </p>
+                    </div>
+                    <div class="content-card">
+                        <div class="card-left">
+                            <img src="./src/img/OurFood/school_lunches_feature.webp" alt="">
+                        </div>
+                        <div class="card-right">
+                            <p class="card-title">school lunch program</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <script src="./src/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
